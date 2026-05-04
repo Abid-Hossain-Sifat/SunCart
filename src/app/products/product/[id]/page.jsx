@@ -13,7 +13,7 @@ const ProductDetailsPage = async ({ params }) => {
   if (!product) {
     return (
       <div className='bg-[#f2f4f5] py-12'>
-        <div className='mx-auto max-w-[80%] rounded-xl bg-white p-8 text-center'>
+        <div className='animate__animated animate__fadeIn mx-auto max-w-[80%] rounded-xl bg-white p-8 text-center'>
           <h1 className='text-2xl font-bold text-[#2f4247]'>Product not found</h1>
           <Link
             href='/products/all-products/default'
@@ -28,7 +28,7 @@ const ProductDetailsPage = async ({ params }) => {
 
   return (
     <div className='bg-[#f2f4f5] py-10 md:py-12'>
-      <div className='mx-auto max-w-[80%] rounded-2xl border border-[#dfe7e9] bg-[#f7f8f8] p-4 md:p-6 lg:p-8'>
+      <div key={productId} className='animate__animated animate__fadeInUp mx-auto max-w-[80%] rounded-2xl border border-[#dfe7e9] bg-[#f7f8f8] p-4 md:p-6 lg:p-8'>
         <div className='grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-8'>
           <div>
             <img src={product.image} alt={product.name} className='h-[320px] w-full rounded-xl object-cover md:h-[420px]' />

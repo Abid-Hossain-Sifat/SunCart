@@ -88,7 +88,7 @@ const ProductsByFilterPage = async ({ params }) => {
 
         <div
           key={`${selectedCategorySlug}-${selectedPrice}`}
-          className='mt-6 grid grid-cols-1 gap-5 md:mt-7 md:grid-cols-2 lg:grid-cols-4 animate-in fade-in zoom-in-[0.98] slide-in-from-bottom-8 duration-700 ease-out'
+          className='mt-6 grid grid-cols-1 gap-5 md:mt-7 md:grid-cols-2 lg:grid-cols-4 animate__animated animate__fadeInUp animate__faster'
         >
           {filteredProducts.map((item) => (
             <div key={item.id} className='group rounded-xl border border-[#dfe7e9] bg-[#f7f8f8] p-3 shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1'>
