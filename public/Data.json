@@ -174,5 +174,49 @@
     "description": "Comfortable flip flops with ergonomic arch support and non-slip rubber sole. Built for all-day beach wear.",
     "image": "https://i.ibb.co.com/xqqGz2jL/Gemini-Generated-Image-1.png",
     "category": "Footwear"
+  },
+  {
+    "id": 17,
+    "name": "Waterproof Bluetooth Speaker",
+    "brand": "SonicWave",
+    "price": 35,
+    "rating": 4.7,
+    "stock": 25,
+    "description": "IPX7 waterproof portable speaker with rich bass and 12-hour playtime. The ultimate soundtrack for your beach party.",
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=600&auto=format&fit=crop&q=80",
+    "category": "Beach Accessories"
+  },
+  {
+    "id": 18,
+    "name": "Insulated Beach Cooler Bag",
+    "brand": "ChillPack",
+    "price": 29,
+    "rating": 4.6,
+    "stock": 18,
+    "description": "Leakproof insulated cooler backpack that keeps your drinks and snacks ice-cold for up to 16 hours under the sun.",
+    "image": "https://images.unsplash.com/photo-1581553673391-4209bf0b73df?w=600&auto=format&fit=crop&q=80",
+    "category": "Beach Accessories"
+  },
+  {
+    "id": 19,
+    "name": "Quick-Dry Swim Shorts",
+    "brand": "HydroFit",
+    "price": 25,
+    "rating": 4.5,
+    "stock": 40,
+    "description": "Lightweight, water-repellent swim trunks featuring a mesh lining and secure zip pockets for beach volleyball or swimming.",
+    "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=600&auto=format&fit=crop&q=80",
+    "category": "Summer Outfits"
+  },
+  {
+    "id": 20,
+    "name": "Hydrating Coconut Face Mist",
+    "brand": "AquaGlow",
+    "price": 16,
+    "rating": 4.8,
+    "stock": 32,
+    "description": "Refreshing and lightweight facial mist infused with pure coconut water and hyaluronic acid to instantly revive tired summer skin.",
+    "image": "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?w=600&auto=format&fit=crop&q=80",
+    "category": "Skincare"
   }
 ]
