@@ -9,7 +9,7 @@ const ProductsByFilterPage = async ({ params }) => {
   const selectedCategorySlug = routeParams?.category || 'all-products'
   const selectedPrice = routeParams?.price || 'default'
 
-  const res = await fetch('https://assignment8-sun-cart.vercel.app/Data.json', { cache: 'no-store' })
+  const res = await fetch('https://suncart-by-abid.vercel.app/Data.json', { cache: 'no-store' })
   const products = await res.json()
 
   const categoryOptions = ['All Products', ...new Set(products.map((item) => item.category))]
