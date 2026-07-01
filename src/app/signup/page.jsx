@@ -21,7 +21,7 @@ const SignupPage = () => {
     const email = formData.get("email");
     const password = formData.get("password");
 
-    // console.log ({name, photo, email, password})
+    console.log ({name, image, email, password})
 
     const { data, error } = await authClient.signUp.email({
       name,

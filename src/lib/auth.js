@@ -19,6 +19,10 @@ export const auth = betterAuth({
       clientSecret: process.env.GOOGLE_CLIENT_SECRET, 
     }, 
   }, 
+  trustedOrigins: [
+    process.env.NEXT_PUBLIC_APP_URL,
+    process.env.BETTER_AUTH_URL,
+  ].filter(Boolean),
   advanced: {
     trustHost: true
   }

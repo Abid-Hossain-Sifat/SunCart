@@ -4,7 +4,7 @@ import { FaRegHeart } from 'react-icons/fa';
 import Link from 'next/link';
 
 const Products = async() => {
-    const res = await fetch ('https://suncart-by-abid.vercel.app/Data.json');
+    const res = await fetch(`${process.env.NEXT_PUBLIC_APP_URL}/Data.json`);
     const products = await res.json();
     const sortedByRating = [...products].sort((a, b) => b.rating - a.rating);
     const featuredProduct = sortedByRating?.[0];
